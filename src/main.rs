@@ -32,6 +32,7 @@ fn main() {
     let nums = vargs[2].trim().parse().unwrap();
 
     // let mut file = File::create(vargs[1].as_str()).unwrap();
+    //
     // 创建文件，打开读写创建权限
     let mut file = OpenOptions::new()
         .read(true)
